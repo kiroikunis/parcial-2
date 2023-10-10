@@ -1,0 +1,18 @@
+#https://replit.com/join/cudomudhgr-a00573991
+ingridient_1 = input("ingredient 1")
+calories_1 = int(input("calories of ingridient 1"))
+grams_1 = int(input("grams"))
+protein_1 = int(input("grams of protein"))
+
+ingridient_2 = input("ingredient 2")
+calories_2 = int(input("calories"))
+grams_2 = int(input("grams"))
+protein_2 = int(input("protein"))
+
+print("total nutrients")
+calories = (calories_1 + calories_2)
+print("the calories are", calories)
+grams = (grams_1 + grams_2)
+print("the grams are", grams)
+protein = (protein_1+protein_2)
+print("the total protein is", protein)
