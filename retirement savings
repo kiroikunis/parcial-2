@@ -1,0 +1,6 @@
+#https://replit.com/join/ownzgiancv-a00573991
+current_age = int(input("what is your age?"))
+age_retirement = int(input("at what age you want to retire?" ))
+desired_amount = int(input("decired amount to retire?"))
+pmt = desired_amount*1.12/((age_retirement-current_age)*12)
+print("$", pmt, "that is the amount to save every month since now counting the inflation of 12% every year")
