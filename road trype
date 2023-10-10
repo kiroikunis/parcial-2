@@ -1,0 +1,8 @@
+#https://replit.com/join/dcomulvaxs-a00573991
+miles = int(input("how many miles are you going to travel?"))
+gasoline = int(input("how many miles per galon of gasoline?"))
+price = int(input("current price of gasoline?"))
+days = int(input("how many days are you traveling?"))
+
+total = ((miles/gasoline)*price)*days
+print("this is the aproximate cost of the trip ", total)
