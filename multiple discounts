@@ -1,0 +1,20 @@
+#https://replit.com/join/iqbfosphgb-a00573991
+print("hi please inter the price of the product")
+product = int(input())
+print("ok and wich category: a, b, c. please in lowercase")
+category = input()
+if category == "a":
+  a_catergory = product*.90
+  print(a_catergory)
+
+elif category == "b":
+  b_category = product*.50
+  print(b_category)
+
+elif category == "c":
+  c_category = product*.89
+  print(c_category)
+
+else:
+  print(" thats not valid, sorry transaction declined")
+  print("have a good day")
