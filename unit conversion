@@ -1,0 +1,14 @@
+#https://replit.com/join/smcthwrtyx-a00573991
+original = int(input("please enter the cuantity"))
+number_i = input("is in miles or in galons?")
+number_b = print("i¨m going to transform it in km or L")
+if number_i == "galons":
+  L = (original*3.78541)
+  print("there you go", L)
+
+elif number_i == "miles":
+  Km = (original*0.621371)
+  print("there you go", Km)
+
+else:
+  print("not valid")
