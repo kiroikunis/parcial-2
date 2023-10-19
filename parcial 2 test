@@ -12,19 +12,19 @@ if age <= 18:
   print("we recomend a high carbohydrate diet")
 
 
-if age >= 18 and age <=35:
+if age > 18 and age <35:
   print("we recomend a high protein and lower carbohydrate diet")
 
-if age >= 35:
+if age > 35:
   print("we recomend a low sugar diet")
 
 if age >= 18 and age <=30 and lifestyle == "sedentary"or"moderate":
   print("you need aerobioc exercises")
   
-if bmi <= 18 and lifestyle == "sedentary":
+if bmi < 18 and lifestyle == "sedentary":
   print("you need to consult a nutrinionist and increase your physical activity")
 
-if bmi >= 18 and bmi <= 25 and lifestyle == "moderate" or "active":
+if bmi > 18 and bmi < 25 and lifestyle == "moderate" or "active":
   print("you are in good condition")
 
 if bmi >= 25 and lifestyle == "sedentary":
